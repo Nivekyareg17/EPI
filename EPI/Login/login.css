@@ -1,0 +1,68 @@
+.container1{
+    width: 100%;
+    height: 100px;
+    background: #2C405B;
+    
+}
+
+
+
+.text-1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.tex-2{
+    color: #88BB33;
+}
+
+
+
+@media screen and (max-width: 486px) {
+    .text-1 {
+        font-size: 25px;
+    }    
+}
+
+
+footer{
+    background-color: #1F3B60;
+    align-items: flex-end;
+    margin-top: 110px;
+    position: sticky;
+}
+
+.footertext{
+    text-align: center;
+}
+
+.pfoot{
+    text-align: center;
+    font-size: large;
+    top: 20px;
+}
+body {
+    background-color: #0F172A;
+}
+
+.login {
+    background-color: #1F3B60;
+}
+
+.login {
+    text-align: center;
+}
+
+.btnSubmit {
+    background-color: #8BC34A;
+}
+
+.container {
+    width: 35%;
+}
+
+@media screen and (max-width: 992px){
+    .container {
+        width: 80%;
+    }
+}
