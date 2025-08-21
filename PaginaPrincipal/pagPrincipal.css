@@ -1,0 +1,168 @@
+body{
+    background-color: #0f172A;
+
+
+}
+/*navbar */
+.navbar-toggler{
+    color: aliceblue;
+    align-items: center;
+}
+
+
+ body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    nav {
+      max-width: 750px;
+      margin: 0 auto;
+      padding: 1rem 2rem; 
+      background-color: #1F3B60;
+      border-radius: 10px;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    li a:hover {
+      color: #486b91;
+    }
+
+/*quienes somos */
+.h1Q{
+    .audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+}
+
+}
+.pq{
+    font-size: x-large;
+}
+.imgq {
+    height: 600px;
+    width: 500px;
+    
+}
+.pq{
+    flex-direction: column-reverse;
+}
+/*carousel */
+.sectionCarousel{
+    margin-top: 800px;
+    
+}
+/*ofrecemos */
+
+.card_1{
+  width: 700px;
+  height: 300px;
+  background: #1F3B60   ;
+  border-right: white 2px solid;
+  border-radius: 0px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    
+}
+.card_2{
+  width: 700px;
+  height: 300px;
+  background: #1F3B60   ;
+  border-right: white 2px solid;
+  border-radius: 0px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    
+}
+.card_3{
+  width: 700px;
+  height: 300px;
+  background: #1F3B60   ;
+
+  border-radius: 0px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    
+}
+.img-fluid{
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.img-fluid1{
+  
+    width: 100px;
+    margin-left: 25%;
+    
+}
+.img-fluid2{
+    margin-left: 20%;
+    width: 125px;
+    width: 125px;
+    
+}
+.containerOfrecemos{
+
+    border-color: white;
+    display: flex;
+    gap: 1px;
+    justify-content: center; 
+    align-items: center;     
+    height: 50vh;
+   
+    
+}
+
+
+/* Frooter */
+footer{
+    background-color: #1F3B60;
+    align-items: flex-end;
+ 
+    position: sticky;
+}
+
+.footertext{
+    text-align: center;
+}
+
+.pfoot{
+    text-align: center;
+    font-size: large;
+    top: 20px;
+}
+
+
+.login {
+    background-color: #1F3B60;
+}
+
+.login {
+    text-align: center;
+}
+
+.btnSubmit {
+    background-color: #8BC34A;
+}
+
+.container {
+    width: 35%;
+}
+
+@media screen and (max-width: 992px){
+    .container {
+        width: 80%;
+    }
+}
